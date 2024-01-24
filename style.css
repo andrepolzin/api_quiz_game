@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap');
 
 * {
     box-sizing: border-box;
@@ -21,12 +22,19 @@ a {
 
 .question-container {
     display: none;
-    position: absolute;
-    top: 20%;
-    left: 40%;
+    width: fit-content;
+    margin: auto;
+    max-width: 400px;
     font-size: 150%;
 }
 
+.question-container p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
 
 .final-section {
     display: none;
@@ -49,6 +57,7 @@ a {
 .color-li {
     position: relative;
     width: fit-content;
+    min-width: 100px;
 }
 
 
