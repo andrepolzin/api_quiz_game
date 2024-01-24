@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header class="main-header">
+        <p>
+            <a href="highscores.html" class="view-high">View Highscores</a>
+
+        </p>
+        <p>Time: <span id="timer"></span></p>
+
+    </header>
+
+    <div class="welcome-screen">
+        <h1>Coding Quiz Challenge</h1>
+        <p>Welcome to the Quiz Challenge. Let's test your general knowledge 
+            by selecting one option among four.
+        </p>
+        <button class="start-btn">Start Quiz</button>
+    </div>
+
+    <div class="question-container">
+        <p></p>
+        <ol class="color-ol"></ol>
+        <div class="right-wrong"></div>
+    </div>
+    
+    <div class="final-section">
+        <p>All done!</p>
+        <p>Your final score is: 
+            <span class="final-score"></span>
+        </p>
+        <div>
+            <label for="">Enter your initials</label>
+            <input type="text" class="initials" required>
+            <button class="submit-btn">Submit</button>
+        </div>
+        <h4></h4>
+    </div>
+        
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
